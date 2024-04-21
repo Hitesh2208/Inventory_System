@@ -1,0 +1,33 @@
+{
+    "users": [
+        {
+            "name": "hitesh",
+            "id": "1",
+            "role": "admin"
+        },
+        {
+            "name": "yathindra",
+            "id": "2",
+            "role": "user"
+        }
+    ],
+    "userRoles": [
+        {
+            "id": "admin",
+            "name": "Administrator",
+            "privileges": [
+                "create_user",
+                "delete_user",
+                "update_inventory"
+            ]
+        },
+        {
+            "id": "user",
+            "name": "Standard User",
+            "privileges": [
+                "view_inventory",
+                "place_order"
+            ]
+        }
+    ]
+}
